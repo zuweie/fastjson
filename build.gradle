@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.0"
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -29,7 +29,7 @@ ext {
     bintrayName = 'fast-json'
 
     publishedGroupId = 'co.bankoo.zuweie'
-    libraryName = 'fastjson'
+    libraryName = 'fast-json'
     artifact = 'fast-json'
 
     libraryDescription = 'A json wrapper for quick get set on Android'
@@ -37,7 +37,7 @@ ext {
     siteUrl = 'https://github.com/zuweie/fastjson'
     gitUrl = 'https://github.com/zuweie/fastjson.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '0.0.1'
 
     developerId = 'zuweie'
     developerName = 'Joe Wei'
