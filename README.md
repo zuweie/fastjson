@@ -30,6 +30,11 @@ data2的指示器 = data[].5{}.data2 or data[].5.data2<br/>
 22 的指示器  = 5[].2<br/>
 用法：getXXX(jsonArray, "5[].2");<br/>
 
+### Gradle
+dependencies {<br/>
+&nbsp;&nbsp;compile 'co.bankoo.zuweie:fast-json:0.0.2'<br/>
+}<br/>
+
 ### 后记
 
   为什么要写这个东东。其实是因为项目经常要用到json。获取json一般会转换成本地的数据结构用作显示，后来发现换来唤去很麻烦，干脆就直接用json来做数据
